@@ -29,6 +29,14 @@
 ChEMBL webresource client
 ======
 
+Note: As of 2019-04-11 official chembl_webresource_client is not maintained and does not work on Python 3.7.
+This is a hacked version of this client, which is official client with Pull Request number 51 applied (without version number changes).
+
+To be specific code of this client is the same as:
+`git fetch upstream pull/51/head:pull_request_51`
+And then taking commit: `757199811ae4a037a2c49896e556b2f2c1d38423`
+(Where upstream is official client.)
+
 This is the only official Python client library developed and supported by `ChEMBL <https://www.ebi.ac.uk/chembl/>`_ group.
 Python 2 and 3 compatible.
 
